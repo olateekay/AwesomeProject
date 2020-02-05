@@ -1,9 +1,11 @@
 // import React from 'react';
 // import { Text, StyleSheet } from 'react-native';
 
-// const SubHeader = () => {
+
+// const name = Olatokunbo
+// const PassProp = () => {
 //     return ( <Text style={styles.textStyle}>
-//         My name is Olatokunbo
+//         Getti
 //     </Text>
 
 //     )
@@ -12,8 +14,8 @@
 
 // const styles = StyleSheet.create({
 //     textStyle:{
-//         fontSize:20
+//         fontSize:22
 //     }
 // });
 
-// export default SubHeader;
+// export default PassProp;
