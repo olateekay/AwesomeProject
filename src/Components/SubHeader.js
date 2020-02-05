@@ -1,9 +1,9 @@
 import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
-const HomeScreen = () => {
+const SubHeader = () => {
     return ( <Text style={styles.textStyle}>
-        This is my home screen
+        My name is Olatokunbo
     </Text>
 
     )
@@ -12,8 +12,8 @@ const HomeScreen = () => {
 
 const styles = StyleSheet.create({
     textStyle:{
-        fontSize:30
+        fontSize:20
     }
 });
 
-export default HomeScreen;
+export default SubHeader;
