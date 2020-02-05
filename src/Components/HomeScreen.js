@@ -8,9 +8,8 @@ const HomeScreen = () => {
     <Text style={styles.textStyle}>
         Getting started with React Native!
     </Text>
-    <Text style={styles.subheaderStyle}> My name is Olatokunbo
+    <Text style={styles.subheaderStyle}> My name is {name}
     </Text>
-    {name}
     </View>
     );
 

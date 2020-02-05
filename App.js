@@ -25,7 +25,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import HomeScreen from './src/Components/HomeScreen';
-// import SubHeader from './src/Components/SubHeader';
+import ListScreen from './src/Components/ListScreen';
 
 const App: () => React$Node = () => {
   return (
@@ -72,7 +72,7 @@ const App: () => React$Node = () => {
         </ScrollView>
       </SafeAreaView> */}
       <HomeScreen />
-      {/* <SubHeader /> */}
+     <ListScreen />    
     </>
   );
 };
