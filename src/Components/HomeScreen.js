@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, StyleSheet, View } from 'react-native';
+import { Text, StyleSheet, View ,Button} from 'react-native';
 
 const HomeScreen = () => {
     const name = <Text> Olatokunbo</Text>;
@@ -10,6 +10,9 @@ const HomeScreen = () => {
     </Text>
     <Text style={styles.subheaderStyle}> My name is {name}
     </Text>
+    <Button 
+    onPress={() => console.log("Button pressed")}
+    title="Go to Components Demo"/>
     </View>
     );
 
