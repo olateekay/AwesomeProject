@@ -71,7 +71,7 @@ const App: () => React$Node = () => {
           </View>
         </ScrollView>
       </SafeAreaView> */}
-      <HomeScreen />
+      {/* <HomeScreen /> */}
      <ListScreen />    
     </>
   );
