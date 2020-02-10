@@ -1,21 +1,24 @@
 import React from 'react';
 import { Text, StyleSheet, View ,Button, TouchableOpacity} from 'react-native';
+import { createStackNavigation } from '@react-navigation/stack';
+import { NavigationContainer } from '@react-navigation/native';
 
-const HomeScreen = () => {
+
+function HomeScreen({ navigation}) {
     const name = <Text> Olatokunbo</Text>;
     return (
-    <View>
-    <Text style={styles.textStyle}>
+    <View style={styles.textStyle}>
+    <Text>
         Getting started with React Native!
     </Text>
-    <Text style={styles.subheaderStyle}> My name is {name}
+    <Text> My name is {name}
     </Text>
     <Button 
-    onPress={() => console.log("Button pressed")}
-    title="Go to Components Demo"/>
-    <TouchableOpacity onPress={()=> console.log('List Pressed')}>
+    onPress={() => navigation.navigate("ListScreen")}
+    title="Go to List Screen"/>
+    {/* <TouchableOpacity onPress={()=> console.log('List Pressed')}>
         <Text>Go To ListScreen</Text>
-    </TouchableOpacity>
+    </TouchableOpacity> */}
     </View>
     );
 
@@ -23,10 +26,10 @@ const HomeScreen = () => {
 
 const styles = StyleSheet.create({
     textStyle:{
-        fontSize:45
-    },
-    subheaderStyle:{
-        fontSize:20
+        fontSize:60,
+        flex:1,
+        alignItems:'center',
+        justifyContent:'center'
     }
 });
 

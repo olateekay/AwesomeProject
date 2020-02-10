@@ -1,7 +1,8 @@
 import React from 'react';
 import { View,Text,StyleSheet, FlatList } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
 
-const ListScreen = () => {
+const ListScreen = ({ navigation}) => {
     const friends = [
         { name: 'Friend #1', age: 1},
         { name: 'Friend #3', age: 2},
