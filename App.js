@@ -12,6 +12,7 @@ import HomeScreen from './src/Components/HomeScreen';
 import ListScreen from './src/Components/ListScreen';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
+import AnotherPage from './src/Components/AnotherPage';
 
 const Stack = createStackNavigator();
 
@@ -21,6 +22,7 @@ function App() {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="ListScreen" component={ListScreen} />
+        <Stack.Screen name="AnotherPage" component={AnotherPage} />
       </Stack.Navigator>
     </NavigationContainer>
   );
