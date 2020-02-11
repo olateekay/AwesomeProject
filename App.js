@@ -13,6 +13,7 @@ import ListScreen from './src/Components/ListScreen';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import AnotherPage from './src/Components/AnotherPage';
+import ImageScreen from './src/Components/ImageScreen';
 
 const Stack = createStackNavigator();
 
@@ -23,6 +24,7 @@ function App() {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="ListScreen" component={ListScreen} />
         <Stack.Screen name="AnotherPage" component={AnotherPage} />
+        <Stack.Screen name="ImageScreen" component={ImageScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
