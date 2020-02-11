@@ -1,11 +1,15 @@
 import React from 'react';
 import {View, Text,StyleSheet,Button} from 'react-native';
+import ImageDetails from '../ComponentsAgain/ImageDetails';
 
 
 function ImageScreen (){
     return(
       <View>
-         <Text>I am an image screen</Text>
+         <ImageDetails />
+         <ImageDetails />
+         <ImageDetails />
+         <ImageDetails />
       </View>
     )
 };

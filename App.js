@@ -13,7 +13,7 @@ import ListScreen from './src/Components/ListScreen';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import AnotherPage from './src/Components/AnotherPage';
-import ImageScreen from './src/Components/ImageScreen';
+import ImageScreen from './src/Components/ImageScreen'
 
 const Stack = createStackNavigator();
 
